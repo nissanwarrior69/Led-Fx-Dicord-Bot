@@ -18,7 +18,7 @@ client.on('ready', () => {
         //The name of the local folder for your commands
         commandDir: path.join(__dirname, 'commands')
         //allow importing of .ts files if you are using ts-node
-        typeScript: true
+        typeScript: true,
     })
     console.log('Bot is ready')
 })
